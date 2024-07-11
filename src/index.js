@@ -1,17 +1,27 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import CatFacts from './components/CatFacts/CatFacts';
+// import Cleanup from './components/Cleanup/Cleanup';
+// import SearchProducts from './components/SearchProducts/SearchProducts';
+// import UseReducer from './components/UseReducer/UseReducer';
+import LearnReducer from './components/UseReducer/LearnReducer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+   const root = ReactDOM.createRoot(document.getElementById('root'));
+   
+  root.render (
+      <React.StrictMode>
+      
+      {/* <div>Hello World</div> */}
+      {/* <CatFacts /> */}
+      {/* <Cleanup/> */}
+
+      {/* <SearchProducts /> */}
+       {/* <UseReducer /> */}
+       {/* <UseReducerAdvanced /> */}
+       <LearnReducer />
+    </React.StrictMode> 
+  )
+
+
+
